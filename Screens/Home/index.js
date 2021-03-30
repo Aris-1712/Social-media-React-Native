@@ -10,9 +10,6 @@ const Home = (props) => {
         <PaperProvider>
             <StatusBar hidden={true}  />
             <Header></Header>
-            {/* <Divider style={{ marginTop: 10, padding: 3 }} /> */}
-           
-            {/* <Divider style={{ marginTop: 10, padding: 3 }} /> */}
             <Post></Post>
         </PaperProvider>
 

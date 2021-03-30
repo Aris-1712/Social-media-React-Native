@@ -6,7 +6,7 @@ const Header=(props)=>{
     return(
         <View
         style={Styles.main}>
-            <Image style={{width:90,height:90}} source={require('./header.png')}></Image>
+            <Image style={{width:80,height:80}} source={require('./header.png')}></Image>
         </View>
     )
 
@@ -16,7 +16,7 @@ const Styles=StyleSheet.create({
     main:{
         flexDirection:"row",
         // paddingBottom:5,
-        backgroundColor:"#f2f2f2",
+        backgroundColor:"#1F2B33",
         justifyContent:"center"
         // height:80
     }

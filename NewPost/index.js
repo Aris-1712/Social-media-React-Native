@@ -4,7 +4,7 @@ import { Avatar, Title, Divider, Subheading,Button } from 'react-native-paper'
 const NewPost=(props)=>{
     const [text,setText]=useState('')
     return(
-        <View style={{paddingBottom:20}}>
+        <View style={{paddingBottom:20,paddingTop:10}}>
         <View style={styles.main}>
             <View style={styles.avatar}>
             <Avatar.Text style={styles.icon} size={40} label="AG" />
@@ -18,8 +18,8 @@ const NewPost=(props)=>{
             </View>
         </View>
         <View style={styles.action}>
-        <Button color="red" icon="image" mode="outlined" onPress={() => console.log('Pressed')}>ADD IMAGE</Button>
-        <Button color="green" icon="send" mode="outlined" onPress={() => console.log('Pressed')}>POST</Button>
+        <Button style={{width:150}} color="#B4436C" icon="image" mode="outlined" onPress={() => console.log('Pressed')}>ADD IMAGE</Button>
+        <Button style={{width:150}} color="#4D9078" icon="send" mode="outlined" onPress={() => console.log('Pressed')}>POST</Button>
         </View>
         </View>
     )

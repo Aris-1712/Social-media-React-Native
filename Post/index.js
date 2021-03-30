@@ -20,9 +20,9 @@ const Post = (props) => {
             <Divider style={{ margin: 10, padding: 0.5 }} />
             <View style={Styles.padding}>
                 <View style={Styles.CardTitle}>
-                    <Icon name='heart' style={[Styles.icon, { color: "red" }]} size={20}></Icon>
+                    <Icon name='heart' style={[Styles.icon, { color: "#B4436C" }]} size={20}></Icon>
                     <Subheading>Like</Subheading >
-                    <Icon name='comment-o' style={[Styles.icon, { color: "blue", marginLeft: 20 }]} size={20}></Icon>
+                    <Icon name='comment-o' style={[Styles.icon, { color: "#1C7293", marginLeft: 20 }]} size={20}></Icon>
                     <Subheading>Comment</Subheading >
                 </View>
             </View>
